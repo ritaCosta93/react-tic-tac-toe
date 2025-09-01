@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    // Toolchain of the web
+    "biomejs.biome",
+    // Tailwind CSS autocomplete and more
+    "bradlc.vscode-tailwindcss",
+  ]
+}

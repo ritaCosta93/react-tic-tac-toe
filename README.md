@@ -2,7 +2,7 @@
 
 A simple **Tic Tac Toe** game built with **React** and styled using **Tailwind CSS**.
 
-![Tic Tac Toe Board](./screenshots/board.png)
+![Tic Tac Toe Board](./public/board.png)
 
 ---
 
