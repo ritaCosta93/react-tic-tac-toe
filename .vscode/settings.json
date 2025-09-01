@@ -1,0 +1,48 @@
+{
+  "prettier.enable": false,
+  "biome.enabled": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.quickSuggestions": { "strings": "on" },
+  "editor.rulers": [{ "color": "#fd3e3e78", "column": 160 }],
+  "files.associations": { "*.css": "tailwindcss" },
+  "search.followSymlinks": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.nx": true,
+    "**/.svn": true,
+    "**/.tmp": true,
+    ".bundle": true,
+    "fastlane": true,
+    "ios": true,
+    "node_modules": false,
+    "tsconfig.tsbuildinfo": true,
+    ".DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.d.ts": {
+      "when": "$(basename).ts"
+    }
+  },
+  "tailwindCSS.classAttributes": ["className", "style"],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    ["tw.style\\(([^)]*)\\)", "'([^']*)'"]
+  ],
+  "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
